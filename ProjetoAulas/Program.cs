@@ -58,6 +58,45 @@
 // bool valido3 = !(numero2 > 1) ;
 // Console.WriteLine(valido3);
 
-bool ativo = false;
-string status = ativo ? "Ativo" : "Inativo";
-Console.WriteLine(status);
+// bool ativo = false;
+// string status = ativo ? "Ativo" : "Inativo";
+// Console.WriteLine(status);
+
+// Escrever();
+
+// void Escrever() {
+//     var nome = EscreverNomeCompleto();
+//     var soma = Somar();
+
+//     Console.WriteLine(nome);
+//     Console.WriteLine(soma);
+// }
+
+// string EscreverNomeCompleto()
+// {
+//     string primeriroNome = "Rubens";
+//     string segundoNome = "Strassi";
+//     return primeriroNome + " " + segundoNome;
+// }
+
+// int Somar()
+// {
+//     return 8-2;
+// }
+
+var soma = Somar(8,3);
+Console.WriteLine(soma);
+
+var nomee = NomeIdade("Rubens",27);
+Console.WriteLine(nomee);
+
+int Somar(int a, int b)
+{
+    return a + b;
+}
+
+string NomeIdade(string nome, int idade)
+{
+    return "Meu nome é " + nome + " minha idade é "+ idade;
+}
+
